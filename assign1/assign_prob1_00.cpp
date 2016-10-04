@@ -5,10 +5,8 @@ Created on:			September 24, 2016
 Description:		Enter a unlimited number of integers into. Once the user terminates
 					to data entering loop, display the sum to the values entered.
 Purpose:			Demonstrates using the while loop to gather user input.
-Usage:				assign_prob1_00
-					Enter integers into the program, to end data entering, enter 0.
-					Build with:	g++ -o assign_prob1_00 assign_prob1_00.cpp 
-								(or Visual Studio, must set Linker>System>SubSystem to CONSOLE)
+Usage:				Enter integers into the program, to end data entering, enter 0.
+					Build with:	Visual Studio 2015
 Modifications:		None
 ******************************************************************************/
 #include <iostream>
@@ -25,5 +23,7 @@ int main() {
 		cin >> num;
 	}
 	cout << "The total of numbers entered was: " << sum << endl;
+	
+	system("PAUSE");
 	return 0;
 }

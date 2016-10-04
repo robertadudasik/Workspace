@@ -4,10 +4,8 @@ Author:				Robert Dudasik
 Created on:			October 2, 2016
 Description:		Generates a report for a user's savings account with the data provided.
 Purpose:			Generate a report for a savings account using data provided by the user.
-Usage:				assign_prob6
-					Generate a report by taking user input and manipulating it.
-					Build with:	g++ -o assign_prob6 assign_prob6.cpp 
-								(or Visual Studio, must set Linker>System>SubSystem to CONSOLE)
+Usage:				Generate a report by taking user input and manipulating it.
+					Build with:	Visual Studio 2015
 Modifications:		None
 ******************************************************************************/
 #include <iostream>
@@ -174,5 +172,7 @@ int main(){
 
 	//generate report
 	generateReport(withdrawals, deposits, initBal, bal, interest);
+	
+	system("PAUSE");
 	return 0;
 }

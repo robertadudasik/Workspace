@@ -27,5 +27,7 @@ int main() {
 
 	//call the pointer to the function and generate output
 	cout << "The ascii value of " << character << " is: " << value(0, pchar) << endl;
+	
+	system("PAUSE");
 	return 0;
 }

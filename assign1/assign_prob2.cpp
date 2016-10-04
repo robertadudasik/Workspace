@@ -7,10 +7,8 @@ Description:		Enter a unlimited number of characters into the program. Once the 
 					the user entered.
 Purpose:			Demonstrates using a do while loop to gather input from the user 
 					and a switch statment to count the vowels that were entered.
-Usage:				assign_prob2
-					Enter integers into the program, to end data entering, enter anything other than an integer.
-					Build with:	g++ -o assign_prob2 assign_prob2.cpp 
-								(or Visual Studio, must set Linker>System>SubSystem to CONSOLE)
+Usage:				Enter integers into the program, to end data entering, enter anything other than an integer.
+					Build with:	Visual Studio 2015
 Modifications:		None
 ******************************************************************************/
 #include <iostream>
@@ -39,5 +37,7 @@ int main() {
 	} while (c != 'Q' && c != 'q');
 
 	cout << "There were " << vCnt << " vowels in the characters you entered." << endl;
+	
+	system("PAUSE");
 	return 0;
 }

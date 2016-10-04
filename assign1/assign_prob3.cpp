@@ -8,10 +8,8 @@ Description:		Enter a unlimited number of integers into the program. Once the us
 Purpose:			Demonstrates expanding an array once its size is excceeded. As well
 					demonstrating how to loop through the array and show 5 numbers
 					to a line.
-Usage:				assign_prob3
-					Enter integers into the program, to end data entering, enter anything other than an integer.
-					Build with:	g++ -o assign_prob3 assign_prob3.cpp 
-								(or Visual Studio, must set Linker>System>SubSystem to CONSOLE)
+Usage:				Enter integers into the program, to end data entering, enter anything other than an integer.
+					Build with:	Visual Studio 2015
 Modifications:		None
 ******************************************************************************/
 #include <iostream>
@@ -44,5 +42,7 @@ int main() {
 	}
 
 	cout << endl << "Average: " << (sum / index) << endl;
+	
+	system("PAUSE");
 	return 0;
 }

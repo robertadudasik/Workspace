@@ -5,10 +5,8 @@ Created on:			September 24, 2016
 Description:		Prints out each section of the string provided by the delimiter 
 					provided.
 Purpose:			Demonstrates the C like function of strtok
-Usage:				assign_prob4
-					Enter integers into the program, to end data entering, enter anything other than an integer.
-					Build with:	g++ -o assign_prob4 assign_prob4.cpp 
-								(or Visual Studio, must set Linker>System>SubSystem to CONSOLE)
+Usage:				Enter integers into the program, to end data entering, enter anything other than an integer.
+					Build with:	Visual Studio 2015
 Modifications:		None
 ******************************************************************************/
 #include <iostream>
@@ -24,6 +22,8 @@ int main() {
 		cout << tok << endl;
 		tok = m_strtok(NULL, &delim);
 	}
+	
+	system("PAUSE");
 	return 0;
 }
 
