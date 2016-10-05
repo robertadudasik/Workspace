@@ -5,7 +5,7 @@ Created on:			September 24, 2016
 Description:		Prints out each section of the string provided by the delimiter
 					provided.
 Purpose:			Demonstrates the C like function of strtok
-Usage:				Run thr program, and observe the results.
+Usage:				Run the program, and observe the results.
 Build with:			Visual Studio 2015
 Modifications:		None
 ******************************************************************************/
