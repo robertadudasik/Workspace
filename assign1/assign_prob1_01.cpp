@@ -2,8 +2,8 @@
 Title:				assign_prob1_01.cpp
 Author:				Ethan Blatti, Nick Biegel, Robert Dudasik
 Created on:			September 24, 2016
-Description:		Enter a unlimited number of integers into. Once the user terminates
-					to data entering loop, display the sum to the values entered.
+Description:		Enter an unlimited number of integers into the program. Once the user terminates
+					the data entering loop, display the sum to the values entered.
 Purpose:			Demonstrates using the do-while loop to gather user input.
 Usage:				Enter integers into the program, to end data entering, enter 0.
 Build with:			Visual Studio 2015
