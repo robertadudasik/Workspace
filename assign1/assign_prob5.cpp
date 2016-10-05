@@ -16,7 +16,6 @@ using namespace std;
 //Return the ASCII value of the char
 int ascVal(size_t ip, const char* p)
 {
-	cout << strlen(p) << endl;
 	if (!p || ip >= strlen(p)) {
 		return  -1;
 	} else {
