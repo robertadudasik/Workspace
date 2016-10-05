@@ -20,7 +20,7 @@ using namespace std;
 int main() {
 	//create the needed int values and int array pointer
 	int index = 0, size = 5, num;
-	int *array = new int[size];
+	int *array = new int[size]{0};
 
 	//for as long as we can get a valid int
 	cout << "Enter a number to add to array: ";
@@ -59,6 +59,7 @@ int main() {
 		cout << endl << "Average: " << (sum / index) << endl;
 	else
 		cout << endl << "Average: Undefined" << endl;
+	
 	system("PAUSE");
 	return 0;
 }
