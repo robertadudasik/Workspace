@@ -55,8 +55,10 @@ int main() {
 	}
 
 	//print out the average
-	cout << endl << "Average: " << (sum / index) << endl;
-
+	if(index != 0)
+		cout << endl << "Average: " << (sum / index) << endl;
+	else
+		cout << endl << "Average: Undefined" << endl;
 	system("PAUSE");
 	return 0;
 }
