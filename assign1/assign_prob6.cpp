@@ -11,6 +11,7 @@ Modifications:		None
 #include <iostream>
 #include <string>
 #include <vector>
+
 using namespace std;
 
 //If an input is incorrect, tell the user and clear whatever value is in "cin" and ignore it as input.
