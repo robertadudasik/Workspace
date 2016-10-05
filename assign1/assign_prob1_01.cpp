@@ -22,6 +22,14 @@ int main() {
 	do {
 		cout << "Enter a number (0 to end): ";
 		cin >> num;
+		
+		//exit if the wrong value was entered
+		if (!cin) {
+			cout << endl << "Invalid value entered. Please restart the program and try again." << endl;
+			system("PAUSE");
+			return 0;
+		}
+		
 		sum += num;
 	} while (num != 0);
 

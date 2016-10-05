@@ -16,17 +16,22 @@ using namespace std;
 //Main
 int main() {
 	//create int variables
-	int num = 0, sum = 0;
-
-	//ask user for first number
-	cout << "Enter a number (0 to end): ";
-	cin >> num;
+	int num = -1, sum = 0;
 	
 	//while number is not zero, add to sum and ask for next number
 	while (num != 0) {
-		sum += num;
 		cout << "Enter a number (0 to end): ";
 		cin >> num;
+		
+		//exit if the wrong value was entered
+		if (!cin) {
+			cout << endl << "Invalid value entered. Please restart the program and try again." << endl;
+			system("PAUSE");
+			return 0;
+		}
+		
+		sum += num;
+
 	}
 	
 	//print the sum of numbers entered
