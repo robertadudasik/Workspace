@@ -1,6 +1,6 @@
 /******************************************************************************
 Title:				assign_prob6.cpp
-Author:				Robert Dudasik
+Author:				Ethan Blatti, Nick Biegel, Robert Dudasik
 Created on:			October 2, 2016
 Description:		Generates a report for a user's savings account with the data provided.
 Purpose:			Generate a report for a savings account using data provided by the user.

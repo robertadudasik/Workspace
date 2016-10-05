@@ -1,6 +1,6 @@
 /******************************************************************************
 Title:				assign_prob1_01.cpp
-Author:				Nicholas Biegel
+Author:				Ethan Blatti, Nick Biegel, Robert Dudasik
 Created on:			September 24, 2016
 Description:		Enter a unlimited number of integers into. Once the user terminates
 					to data entering loop, display the sum to the values entered.

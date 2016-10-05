@@ -1,6 +1,6 @@
 /******************************************************************************
 Title:				assign_prob2.cpp
-Author:				Nicholas Biegel
+Author:				Ethan Blatti, Nick Biegel, Robert Dudasik
 Created on:			September 24, 2016
 Description:		Enter a unlimited number of characters into the program. Once the user
 					terminates the loop with q or Q, display the number of vowels

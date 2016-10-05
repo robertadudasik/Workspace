@@ -1,6 +1,6 @@
 /******************************************************************************
 Title:				assign_prob4.cpp
-Author:				Nicholas Biegel
+Author:				Ethan Blatti, Nick Biegel, Robert Dudasik
 Created on:			September 24, 2016
 Description:		Prints out each section of the string provided by the delimiter 
 					provided.

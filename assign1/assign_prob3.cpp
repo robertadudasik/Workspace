@@ -1,6 +1,6 @@
 /******************************************************************************
 Title:				assign_prob3.cpp
-Author:				Nicholas Biegel
+Author:				Ethan Blatti, Nick Biegel, Robert Dudasik
 Created on:			September 24, 2016
 Description:		Enter a unlimited number of integers into the program. Once the user
 					terminates the loop, display 5 to a line until all numbers entered
