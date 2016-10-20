@@ -1,3 +1,13 @@
+/******************************************************************************
+Title:				problem4.cpp
+Author:				Ethan Blatti, Nick Biegel, Robert Dudasik
+Created on:			October 17, 2016
+Description:		Generates a report for a user's savings account with the data provided.
+Purpose:			Generate a report for a savings account using data provided by the user.
+Usage:				Generate a report by taking user input and manipulating it.
+Build with:			Visual Studio 2015
+Modifications:		None
+******************************************************************************/
 #include <iostream>
 #include <string>
 #include <map>
