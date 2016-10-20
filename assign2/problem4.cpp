@@ -20,7 +20,7 @@ class person {
 public:
 	string name;
 	person(string);
-	void set_values( string, string, string, string, string);
+	void set_values(string, string, string, string, string);
 	void printRecord();
 private:
 	string street_number;
@@ -65,22 +65,24 @@ int main() {
 	map<string, person*> people;
 
 
-	do{
+	do {
+
 		cout << "1: Enter a new entry\n2: Search for a name\nQ: quit\n\nChoice: ";
-		cin >> user_choice;
+		getline(cin, user_choice);
+		system("CLS");
 		if (user_choice == "1") {
 			cout << "Enter the person's name: ";
-			cin >> name;
+			getline(cin, name);
 			cout << "Enter the street number: ";
-			cin >> street_number;
+			getline(cin, street_number);
 			cout << "Enter the street name: ";
-			cin >> street;
+			getline(cin, street);
 			cout << "Enter the City: ";
-			cin >> city;
+			getline(cin, city);
 			cout << "Enter the state: ";
-			cin >> state;
+			getline(cin, state);
 			cout << "Enter zipcode: ";
-			cin >> zipcode;
+			getline(cin, zipcode);
 
 			person *persons;
 			persons = new person(name);
@@ -89,13 +91,15 @@ int main() {
 
 			//insert into map
 			people[name] = persons;
-			
+
+			system("CLS");
 		}
 		if (user_choice == "2") {
 			string search_name;
 			cout << "Enter the name of the person you are searching for: ";
-			cin >> search_name;
+			getline(cin, search_name);
 			//check if that name is in the table already
+			system("CLS");
 			map<string, person* > ::iterator iter = people.find(search_name);
 			if (iter != people.end()) {
 				iter->second->printRecord();
@@ -106,4 +110,6 @@ int main() {
 		}
 
 	} while ((user_choice != "q") && user_choice != "Q");
+
+	return 0;
 }
