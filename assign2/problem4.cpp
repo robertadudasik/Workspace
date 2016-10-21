@@ -2,9 +2,9 @@
 Title:				problem4.cpp
 Author:				Ethan Blatti, Nick Biegel, Robert Dudasik
 Created on:			October 17, 2016
-Description:		Generates a report for a user's savings account with the data provided.
-Purpose:			Generate a report for a savings account using data provided by the user.
-Usage:				Generate a report by taking user input and manipulating it.
+Description:			A program that stores a person's name and address
+Purpose:			Demonstrate knowledge of classes by creating a program that uses classes to store information
+Usage:				Select and option and query for people or create entries for new people
 Build with:			Visual Studio 2015
 Modifications:		None
 ******************************************************************************/
