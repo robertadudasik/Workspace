@@ -2,9 +2,9 @@
 Title:				problem2.cpp
 Author:				Ethan Blatti, Nick Biegel, Robert Dudasik
 Created on:			October 15, 2016
-Description:		Generates a report for a user's savings account with the data provided.
-Purpose:			Generate a report for a savings account using data provided by the user.
-Usage:				Generate a report by taking user input and manipulating it.
+Description:			Program that normalizes test scores
+Purpose:			Demonstrate knowledge of vectors and use them to normalize test scores.
+Usage:				Enter in test scores and the program will normalize them
 Build with:			Visual Studio 2015
 Modifications:		None
 ******************************************************************************/
