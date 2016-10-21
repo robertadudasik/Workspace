@@ -2,9 +2,9 @@
 Title:				problem1.cpp
 Author:				Ethan Blatti, Nick Biegel, Robert Dudasik
 Created on:			October 14, 2016
-Description:		Generates a report for a user's savings account with the data provided.
-Purpose:			Generate a report for a savings account using data provided by the user.
-Usage:				Generate a report by taking user input and manipulating it.
+Description:			A phone book that allows a user to add, delete, and lookup entries
+Purpose:			Demonstrate knowledge of classes by using classes to create a phone book directory
+Usage:				Select an option listed and manipulate the phone book as needed.
 Build with:			Visual Studio 2015
 Modifications:		None
 ******************************************************************************/
